@@ -11,6 +11,8 @@
 	reset	KEYWORD2
 	getAddress	KEYWORD2
 	getVersion	KEYWORD2
+	getPullI2C	KEYWORD2
+	setPullI2C	KEYWORD2
 	getButton	KEYWORD2
 	getPosition_X	KEYWORD2
 	getPosition_Y	KEYWORD2
