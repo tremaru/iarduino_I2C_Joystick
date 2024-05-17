@@ -1,0 +1,40 @@
+#	####################################################
+#	СИНТАКСИЧЕСКАЯ РАСКРАСКА ДЛЯ БИБИЛИОТЕКИ:
+#	iarduino_I2C_Joystick
+#	####################################################
+#	ТИПЫ ДАННЫХ:							   (KEYWORD1)
+	iarduino_I2C_Joystick	KEYWORD1
+#	####################################################
+#	МЕТОДЫ И ФУНКЦИИ:						   (KEYWORD2)
+	begin	KEYWORD2
+	changeAddress	KEYWORD2
+	reset	KEYWORD2
+	getAddress	KEYWORD2
+	getVersion	KEYWORD2
+	getPullI2C	KEYWORD2
+	setPullI2C	KEYWORD2
+	getButton	KEYWORD2
+	getPosition_X	KEYWORD2
+	getPosition_Y	KEYWORD2
+	getPosition	KEYWORD2
+	getADC_X	KEYWORD2
+	getADC_Y	KEYWORD2
+	getADC	KEYWORD2
+	getCalibration_X	KEYWORD2
+	getCalibration_Y	KEYWORD2
+	setCalibration_X	KEYWORD2
+	setCalibration_Y	KEYWORD2
+	setDeadZone	KEYWORD2
+	setAveraging	KEYWORD2
+	
+#	####################################################
+#	КОНСТАНТЫ:								   (LITERAL1)
+	KEY_PUSHED	LITERAL1
+	KEY_RELEASED	LITERAL1
+	KEY_PRESSED	LITERAL1
+	KEY_TRIGGER	LITERAL1
+	KEY_CHANGED	LITERAL1
+	KEY_TIME_PRESSED	LITERAL1
+	KEY_HOLD_05	LITERAL1
+	KEY_HOLD_10	LITERAL1
+	KEY_HOLD_20	LITERAL1
