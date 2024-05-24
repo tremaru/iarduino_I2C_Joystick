@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema-модулем джойстик, I2C-flash для Arduino: https://iarduino.ru/shop/Expansion-payments/dzhoystik-i2c---flash-trema-modul.html
-//  Версия: 1.0.2
+//  Версия: 1.0.3
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/521.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/joystick-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!
