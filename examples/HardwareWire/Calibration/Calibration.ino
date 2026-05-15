@@ -6,7 +6,7 @@
                                                                                   //
 #include <Wire.h>                                                                 //   Подключаем библиотеку для работы с аппаратной шиной I2C, до подключения библиотеки iarduino_I2C_Joystick.
 #include <iarduino_I2C_Joystick.h>                                                //   Подключаем библиотеку для работы с джойстиком I2C-flash.
-iarduino_I2C_Joystick joy(0x09);                                                  //   Объявляем объект joy для работы с функциями и методами библиотеки iarduino_I2C_Joystick, указывая адрес модуля на шине I2C.
+iarduino_I2C_Joystick joy(0x09);                                                  //   Создаём объект joy для работы с функциями и методами библиотеки iarduino_I2C_Joystick, указывая адрес модуля на шине I2C.
                                                                                   //   Если объявить объект без указания адреса (iarduino_I2C_Joystick joy;), то адрес будет найден автоматически.
 uint32_t tmrStop;                                                                 //
 long x, adc_X_min=4096, adc_X_cen=0, adc_X_max=0;                                 //
