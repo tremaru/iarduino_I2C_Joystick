@@ -137,7 +137,7 @@ uint16_t iarduino_I2C_Joystick::getButton		(uint8_t type){																	//	П
 					case KEY_TIME_PRESSED :	f=(val_REG_JOY_KEY & JOY_KEY_PRESSED )? (uint16_t)data[1]*100:0;			break;	//	Возвращаемым значением является время удержания кнопки в миллисекундах.
 				}																												//
 			//	Устранение повторных срабатываний флагов:																		//
-				if( type == KEY_PUSHED | type == KEY_RELEASED | type == KEY_CHANGED ){delay(1);}								//	Флагам JOY_KEY_PUSHED, JOY_KEY_RELEASED и JOY_KEY_CHANGED может потребоваться время для сброса в регистре REG_JOY_KEY.
+				if( (type==KEY_PUSHED) | (type==KEY_RELEASED) | (type==KEY_CHANGED) ){delay(1);}								//	Флагам JOY_KEY_PUSHED, JOY_KEY_RELEASED и JOY_KEY_CHANGED может потребоваться время для сброса в регистре REG_JOY_KEY.
 			}																													//
 		//	Возвращаем результат:																								//
 			return f;																											//
