@@ -7,6 +7,9 @@
                                                   //
 #include <Wire.h>                                 //   Подключаем библиотеку для работы с аппаратной шиной I2C, до подключения библиотеки iarduino_I2C_Joystick.
 #include <iarduino_I2C_Joystick.h>                //   Подключаем библиотеку для работы с джойстиком I2C-flash.
+#ifndef LED_BUILTIN                                                                       //
+#define LED_BUILTIN 13   // Номер вывода со светодиодом. У плат Arduino он известен ядру,  //
+#endif                   // а у ESP32 встроенного светодиода нет — поставьте свой номер.   //
 iarduino_I2C_Joystick joy(0x09);                  //   Создаём объект joy для работы с функциями и методами библиотеки iarduino_I2C_Joystick, указывая адрес модуля на шине I2C.
                                                   //   Если объявить объект без указания адреса (iarduino_I2C_Joystick joy;), то адрес будет найден автоматически.
 void setup(){                                     //
